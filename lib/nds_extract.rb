@@ -1,5 +1,6 @@
 require 'directors_database'
 require 'pry'
+require 'pp'
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
 #
@@ -26,10 +27,7 @@ end
 # using director_data as input
 
 def gross_for_director(director_data)
-  converted = director_data.to_a
-  data = directors_totals(converted)
-  dataf = data.map{|k,v|[k, v.to_sym]}.to_h
-  return dataf
+  pp director_data
 end
 
 
