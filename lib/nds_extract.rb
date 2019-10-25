@@ -18,7 +18,7 @@ def directors_totals(nds)
     end
     director_index += 1
   end
-  binding.pry
+  #binding.pry
  total
 end
 
@@ -27,7 +27,7 @@ end
 # using director_data as input
 
 def gross_for_director(director_data)
-
+binding.pry
   grandtotal = director_data.sum{ |k, v| v }   
   grand_total
 end
