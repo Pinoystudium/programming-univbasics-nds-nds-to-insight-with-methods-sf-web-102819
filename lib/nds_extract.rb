@@ -18,7 +18,6 @@ def directors_totals(nds)
     end
     director_index += 1
   end
-  #binding.pry
  total
 end
 
@@ -27,10 +26,8 @@ end
 # using director_data as input
 
 def gross_for_director(director_data)
-#binding.pry
-#pp 'director_data'
   data = directors_totals(director_data)
-  p data
+  data
 end
 
 
