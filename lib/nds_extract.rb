@@ -28,7 +28,7 @@ end
 
 def gross_for_director(director_data)
 #binding.pry
-pp 'director_data'
+#pp 'director_data'
   grandtotal = director_data.sum{ |k, v| v }   
   grand_total
 end
