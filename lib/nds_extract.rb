@@ -27,7 +27,7 @@ end
 
 def gross_for_director(director_data)
   
-  data = directors_totals(converted)
+  data = directors_totals(director_data.to_a)
   return data
 end
 
