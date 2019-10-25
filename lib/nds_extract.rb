@@ -30,7 +30,7 @@ def gross_for_director(director_data)
 #binding.pry
 #pp 'director_data'
   data = directors_totals(director_data)
-  puts data
+  p data
 end
 
 
