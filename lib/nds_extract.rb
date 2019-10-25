@@ -28,6 +28,7 @@ end
 def gross_for_director(director_data)
   converted = director_data.to_a
   data = directors_totals(converted)
+  data.map{|k,v|[k, v.to_sym]}.to_h
   return data
 end
 
