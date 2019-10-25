@@ -26,7 +26,7 @@ end
 # using director_data as input
 
 def gross_for_director(director_data)
-  converted = director_data.map{|k,v| [k, v.to_i]}
+  converted = director_data.map{|k,v| [k, (v.to_s).to_i]}
   data = directors_totals(converted)
   return data
 end
